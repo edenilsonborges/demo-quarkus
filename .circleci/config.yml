@@ -25,9 +25,9 @@ jobs:
       # ########################
       - restore_cache:
           keys:
-            - v1-quarkus-fuji-{{ checksum "pom.xml" }}
+            - v1-quarkus-Edenilson-{{ checksum "pom.xml" }}
             # fallback to using the latest cache if no exact match is found
-            - v1-quarkus-fuji-
+            - v1-quarkus-Edenilson-
 
       # Download maven dependencies so that we can cache them
       # ########################
